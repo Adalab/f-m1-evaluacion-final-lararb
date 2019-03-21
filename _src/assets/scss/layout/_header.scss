@@ -1,3 +1,25 @@
 .hero_image {
-    background-image: url("../../images/cover.jpg");
+    background-image: url("../../assets/images/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.btn_menu {
+    height: 44px;
+    width: 44px;
+    background: $color-blue;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.btn_menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.hero_text {
+    
 }
