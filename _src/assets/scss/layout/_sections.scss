@@ -1,14 +1,12 @@
-.main_wrapper {
-    margin: 0 15px;
-}
-
 .section_window {
     background: $color-white;
     margin-top: 30px;
+    padding: 0 15px;
 }
 
 .window_text-small {
     display: inline-block;
+    text-align: center;
     height: 30px;
     font-size: 14px;
     text-transform: capitalize;
@@ -46,5 +44,55 @@
     text-transform: capitalize;
     font-family: $font-main;
     text-align: center;
+}
+
+.section_reasons {
+    background: #eff9ff;
+}
+
+.section_reasons_wrapper {
+    padding: 30px 0 60px;
+    text-align: center;
+}
+
+.reasons_text-title {
+    margin: 0;
+    font-family: $font-title;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.reasons_list {
+    list-style: none;
+    margin: 45px 70px 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 45px;
+    text-align: center;
+}
+
+.reasons_item_title {
+    margin: 0;
+    font-size: 18px;
+    font-family: $font-title;
+    display: inline-block;
+    height: 30px;
+    
+}
+
+.reasons_item_text {
+    margin: 0;
+    font-size: 18px;
+}
+
+.btn_more {
+    height: 45px;
+    width: 100%;
+    border-style: none;
+    background: $color-btn;
+    border-radius: 20px;
+    color: $color-white;
+    font-size: 20px;
 }
 
