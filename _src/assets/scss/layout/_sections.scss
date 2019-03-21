@@ -3,7 +3,7 @@
 }
 
 .section_window {
-    background: $color-white;
+    background: $color02;
     margin-top: 30px;
     padding: 0 15px;
 }
@@ -12,15 +12,15 @@
     display: inline-block;
     text-align: center;
     height: 30px;
-    font-size: 14px;
+    font-size: $size-footer_mobile;
     text-transform: capitalize;
-    color: $color-lightblue;
+    color: $color03;
 }
 
 .window_text-title {
     margin: 0;
     padding-bottom: 15px;
-    font-size: 24px;
+    font-size: $size-h2_mobile;
     text-transform: capitalize;
     font-family: $font-title;
     font-weight: bold;
@@ -29,9 +29,8 @@
 
 .window_text-main {
     margin: 0;
-    font-size: 18px;
+    font-size: $size-h3_mobile;
     color: #4a4a4a;
-    line-height: 30px;
     width: 290px;
 }
 
@@ -40,13 +39,14 @@
     width: 76px;
     height: 45px;
     border-style: none;
-    border: 2px solid $color-btn;
-    border-radius: 20px;
-    background: $color-white;
+    border: 2px solid $color01;
+    border-radius: $radius-btn;
+    background: $color02;
     font-size: $size-btn_mobile;
-    color: $color-btn;
+    color: $color01;
     text-transform: capitalize;
-    font-family: $font-main;
+    font-family: $font-text;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -78,7 +78,7 @@
 
 .reasons_item_title {
     margin: 0;
-    font-size: 18px;
+    font-size: $size-h3_mobile;
     font-family: $font-title;
     display: inline-block;
     height: 30px;
@@ -95,8 +95,9 @@
     width: 100%;
     border-style: none;
     background: $color01;
-    border-radius: 20px;
+    border-radius: $radius-btn;
     color: $color02;
     font-size: $size-btn_mobile;
+    font-weight: 500;
 }
 
