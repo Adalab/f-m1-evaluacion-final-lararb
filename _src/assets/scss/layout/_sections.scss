@@ -6,12 +6,17 @@
     background: $color02;
     margin-top: 30px;
     padding: 0 15px;
+    width: 290px;
+
+    @media all and (min-width: 768px) {
+        width: 690px;
+        padding: 0 39px;
+    }
 }
 
 .window_text-small {
     display: inline-block;
     text-align: center;
-    height: 30px;
     font-size: $size-footer_mobile;
     text-transform: capitalize;
     color: $color03;
@@ -24,14 +29,22 @@
     text-transform: capitalize;
     font-family: $font-title;
     font-weight: bold;
-    width: 290px;
+
+    @media all and (min-width: 768px) {
+        font-size: $size-h2_tablet;
+        line-height: 45px;
+        padding-bottom: 30px;
+    }
 }
 
 .window_text-main {
     margin: 0;
     font-size: $size-h3_mobile;
     color: #4a4a4a;
-    width: 290px;
+
+    @media all and (min-width: 768px) {
+        font-size: $size-text_tablet;
+    }
 }
 
 .btn_go {
@@ -48,6 +61,11 @@
     font-family: $font-text;
     font-weight: 500;
     text-align: center;
+
+    @media all and (min-width: 768px) {
+        margin-bottom: 60px;
+        width: 91px;
+    }
 }
 
 .section_reasons {
@@ -64,6 +82,10 @@
     font-family: $font-title;
     font-size: $size-h2_mobile;
     text-transform: capitalize;
+
+    @media all and (min-width: 768px) {
+        font-size: $size-h2_tablet;
+    }
 }
 
 .reasons_list {
@@ -74,6 +96,14 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-row-gap: 45px;
     text-align: center;
+
+    @media all and (min-width: 768px) {
+        margin: 45px 39px 0;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 30px;
+        grid-template-rows: 1fr 45px;
+        grid-row-gap: 60px; 
+    }
 }
 
 .reasons_item_title {
@@ -99,5 +129,9 @@
     color: $color02;
     font-size: $size-btn_mobile;
     font-weight: 500;
+
+    @media all and (min-width: 768px) {
+        grid-column: 2 / 3;
+    }
 }
 

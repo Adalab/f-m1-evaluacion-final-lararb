@@ -8,6 +8,14 @@
     flex-direction: column;
     text-align: center;
     justify-content: flex-start;
+
+    @media all and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        padding: 0 39px 45px;
+
+    }
 }
 
 .sections_list {
@@ -15,6 +23,10 @@
     padding: 0;
     list-style: none;
     color: $color02;
+
+    @media all and (min-width: 768px) {
+        margin: 0;
+    }
 }
 
 .sections_item {
@@ -26,6 +38,10 @@
     padding: 0;
     list-style: none;
     color: $color02;
+
+    @media all and (min-width: 768px) {
+        margin: 0;
+    }
 }
 
 .social_item {
@@ -36,6 +52,11 @@
     margin: 30px 0 45px;
     color: $color02;
     font-size: $size-footer_mobile;
+
+    @media all and (min-width: 768px) {
+        order: -1;
+        margin: 0;
+    }
 }
 
 .copy_text {
