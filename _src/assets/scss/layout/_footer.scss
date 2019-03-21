@@ -1,6 +1,6 @@
 .page__footer {
     margin:0;
-    background: #304268;
+    background: $color05;
 }
 
 .footer_container {
@@ -14,7 +14,7 @@
     margin: 15px 0 0;
     padding: 0;
     list-style: none;
-    color: $color-white;
+    color: $color02;
 }
 
 .sections_item {
@@ -25,7 +25,7 @@
     margin: 30px 0 0;
     padding: 0;
     list-style: none;
-    color: $color-white;
+    color: $color02;
 }
 
 .social_item {
@@ -34,7 +34,7 @@
 
 .copy_container {
     margin: 30px 0 45px;
-    color: $color-white;
+    color: $color02;
     font-size: 14px;
 }
 
@@ -43,14 +43,14 @@
 }
 
 .heart {
-    color: $color-btn;
+    color: $color01;
 }
 
 .btn_arrow {
     height: 45px;
     width: 45px;
     border-style: none;
-    background: $color-white;
+    background: $color02;
     border-radius: 50%;
     display: flex;
     justify-content: center;

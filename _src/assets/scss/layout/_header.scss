@@ -29,16 +29,15 @@
 .hero_text-title {
     margin: 0 0 10px;
     font-family: $font-title;
-    font-size: 42px;
-    color: $color-white;
+    font-size: $size-h1_mobile;
+    color: $color02;
     text-transform: uppercase;
     font-weight: bold;
-    line-height: 1.31;
 }
 
 .hero_text-main {
     margin: 0;
-    color: $color-white;
+    color: $color02;
 }
 
 .btn_menu-container {
@@ -50,7 +49,7 @@
 .btn_menu {
     height: 44px;
     width: 44px;
-    background: $color-blue;
+    background: $color04;
     border-style: none;
     display: flex;
     justify-content: center;
@@ -61,7 +60,7 @@
     width: 45px;
     border-style: none;
     border-radius: 50%;
-    background: $color-white;
+    background: $color02;
     display: flex;
     justify-content: center;
 }

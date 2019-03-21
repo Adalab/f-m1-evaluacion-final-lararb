@@ -43,7 +43,7 @@
     border: 2px solid $color-btn;
     border-radius: 20px;
     background: $color-white;
-    font-size: 20px;
+    font-size: $size-btn_mobile;
     color: $color-btn;
     text-transform: capitalize;
     font-family: $font-main;
@@ -62,7 +62,7 @@
 .reasons_text-title {
     margin: 0;
     font-family: $font-title;
-    font-size: 24px;
+    font-size: $size-h2_mobile;
     text-transform: capitalize;
 }
 
@@ -87,16 +87,16 @@
 
 .reasons_item_text {
     margin: 0;
-    font-size: 18px;
+    font-size: $size-h3_mobile;
 }
 
 .btn_more {
     height: 45px;
     width: 100%;
     border-style: none;
-    background: $color-btn;
+    background: $color01;
     border-radius: 20px;
-    color: $color-white;
-    font-size: 20px;
+    color: $color02;
+    font-size: $size-btn_mobile;
 }
 

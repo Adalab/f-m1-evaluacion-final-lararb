@@ -1,12 +1,15 @@
-@import 'core/settings';
+
 @import 'core/variables';
 
 @import 'layout/header';
 @import 'layout/sections';
 @import 'layout/footer';
 
+@import 'components/buttons';
+@import 'components/typography';
+
 body {
 	margin: 0;
-	font-family: $font-main;
+	font-family: $font-text;
 	line-height: 30px;
 }
