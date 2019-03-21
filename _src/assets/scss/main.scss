@@ -2,8 +2,10 @@
 @import 'core/variables';
 
 @import 'layout/header';
+@import 'layout/sections';
 
 body {
 	margin: 0;
 	font-family: $font-main;
+	line-height: 30px;
 }
