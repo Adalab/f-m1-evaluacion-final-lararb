@@ -14,7 +14,9 @@
         justify-content: space-between;
         text-align: left;
         padding: 0 39px 45px;
-
+    }
+    @media all and (min-width: 1200px) {
+        justify-content: center;
     }
 }
 
@@ -26,6 +28,11 @@
 
     @media all and (min-width: 768px) {
         margin: 0;
+        width: 210px;
+    }
+    @media all and (min-width: 1200px) {
+        margin: 0 30px;
+        width: 160px;
     }
 }
 
@@ -41,6 +48,10 @@
 
     @media all and (min-width: 768px) {
         margin: 0;
+        width: 210px;
+    }
+    @media all and (min-width: 1200px) {
+        width: 160px;
     }
 }
 
@@ -56,6 +67,10 @@
     @media all and (min-width: 768px) {
         order: -1;
         margin: 0;
+        width: 210px;
+    }
+    @media all and (min-width: 1200px) {
+        width: 160px;
     }
 }
 

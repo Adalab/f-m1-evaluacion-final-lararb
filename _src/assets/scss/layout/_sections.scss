@@ -4,13 +4,16 @@
 
 .section_window {
     background: $color02;
-    margin-top: 30px;
-    padding: 0 15px;
+    margin: 30px 15px 0;
     width: 290px;
 
     @media all and (min-width: 768px) {
         width: 690px;
         padding: 0 39px;
+    }
+    @media all and (min-width: 1200px) {
+        width: 730px;
+        margin-top: 60px;
     }
 }
 
@@ -20,6 +23,10 @@
     font-size: $size-footer_mobile;
     text-transform: capitalize;
     color: $color03;
+
+    @media all and (min-width: 1200px) {
+        font-size: 16px;
+    }
 }
 
 .window_text-title {
@@ -34,6 +41,9 @@
         font-size: $size-h2_tablet;
         line-height: 45px;
         padding-bottom: 30px;
+    }
+    @media all and (min-width: 1200px) {
+        font-size: $size-h2_desktop;
     }
 }
 
@@ -66,6 +76,9 @@
         margin-bottom: 60px;
         width: 91px;
     }
+    @media all and (min-width: 1200px) {
+        width: 160px;
+    }
 }
 
 .section_reasons {
@@ -75,6 +88,10 @@
 .section_reasons_wrapper {
     padding: 30px 0 60px;
     text-align: center;
+
+    @media all and (min-width: 1200px) {
+        padding: 60px 0;
+    }
 }
 
 .reasons_text-title {
@@ -85,6 +102,9 @@
 
     @media all and (min-width: 768px) {
         font-size: $size-h2_tablet;
+    }
+    @media all and (min-width: 1200px) {
+        font-size: $size-h2_desktop;
     }
 }
 
@@ -98,7 +118,7 @@
     text-align: center;
 
     @media all and (min-width: 768px) {
-        margin: 45px 39px 0;
+        margin: 45px 40px 0;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 30px;
         grid-template-rows: 1fr 45px;
@@ -112,6 +132,11 @@
     font-family: $font-title;
     display: inline-block;
     height: 30px;
+
+    @media all and (min-width: 768px) {
+        padding-bottom:14px;
+    }
+     
     
 }
 
@@ -132,6 +157,10 @@
 
     @media all and (min-width: 768px) {
         grid-column: 2 / 3;
+    }
+    @media all and (min-width: 1200px) {
+        width: 255px;
+        margin: 0 auto;
     }
 }
 
