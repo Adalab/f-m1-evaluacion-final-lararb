@@ -15,6 +15,10 @@
     justify-content: center;
     align-items: center;
     margin:0 15px 53px;
+
+    @media all and (min-width: 768px) {
+        margin-bottom: 45px;
+    }
 }
 
 .hero_text {
@@ -34,11 +38,20 @@
     text-transform: uppercase;
     font-weight: bold;
     line-height: 55px;
+
+    @media all and (min-width: 768px) {
+        font-size: $size-h1_tablet;
+        line-height: 106px;
+    }
 }
 
 .hero_text-main {
     margin: 0;
     color: $color02;
+
+    @media all and (min-width: 768px) {
+        font-size: $size-h2_mobile;
+    }
 }
 
 .btn_menu-container {
