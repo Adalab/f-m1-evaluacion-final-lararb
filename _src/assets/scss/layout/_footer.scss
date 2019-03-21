@@ -1,0 +1,42 @@
+.page__footer {
+    margin:0;
+    background: #304268;
+}
+
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.sections_list {
+    margin: 60px 0 0;
+    padding: 0;
+    list-style: none;
+    color: $color-white;
+}
+
+.sections_item {
+    text-transform: uppercase;
+}
+
+.social_list {
+    margin: 30px 0 0;
+    padding: 0;
+    list-style: none;
+    color: $color-white;
+}
+
+.social_item {
+    text-transform: uppercase;
+}
+
+.copy_container {
+    color: $color-white;
+
+}
+
+.copy_text {
+    margin: 0;
+}
