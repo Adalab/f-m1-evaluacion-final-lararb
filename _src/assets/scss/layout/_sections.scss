@@ -4,16 +4,15 @@
 
 .section_window {
     background: $color02;
-    margin: 30px 15px 0;
-    width: 290px;
+    margin-top: 30px;
+    padding: 0 15px;
 
     @media all and (min-width: 768px) {
-        width: 690px;
-        padding: 0 39px;
+        margin: 30px 40px 0;
+        padding: 0;
     }
     @media all and (min-width: 1200px) {
-        width: 730px;
-        margin-top: 60px;
+        margin: 60px 275px 0;
     }
 }
 
@@ -32,6 +31,7 @@
 .window_text-title {
     margin: 0;
     padding-bottom: 15px;
+    width: 290px;
     font-size: $size-h2_mobile;
     text-transform: capitalize;
     font-family: $font-title;
@@ -41,6 +41,7 @@
         font-size: $size-h2_tablet;
         line-height: 45px;
         padding-bottom: 30px;
+        width: 100%;
     }
     @media all and (min-width: 1200px) {
         font-size: $size-h2_desktop;
