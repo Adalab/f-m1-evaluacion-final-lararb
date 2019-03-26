@@ -1,6 +1,6 @@
 .page__footer {
     margin:0;
-    background: $color05;
+    background: $color04;
 }
 
 .footer_container {
@@ -8,6 +8,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: flex-start;
+
 
     @media all and (min-width: 768px) {
         flex-direction: row;
@@ -24,7 +25,7 @@
     margin: 60px 0 0;
     padding: 0;
     list-style: none;
-    color: $color02;
+    color: $color-black;
 
     @media all and (min-width: 768px) {
         margin: 0;
@@ -41,10 +42,10 @@
 }
 
 .social_list {
-    margin: 30px 0 0;
+    margin: 45px 0;
     padding: 0;
     list-style: none;
-    color: $color02;
+    color: $color-black;
 
     @media all and (min-width: 768px) {
         margin: 0;
@@ -60,9 +61,11 @@
 }
 
 .copy_container {
-    margin: 30px 0 45px;
-    color: $color02;
+    margin: 0 0 45px;
+    color: $color-black;
     font-size: $size-footer_mobile;
+    display: flex;
+    flex-direction: column;
 
     @media all and (min-width: 768px) {
         order: -1;
@@ -76,6 +79,16 @@
 
 .copy_text {
     margin: 0;
+}
+
+.copy_component {
+    order: -1;
+}
+
+.word_component {
+    @media all and (min-width: 768px) {
+        color: $color01;
+    }
 }
 
 .heart {
